@@ -40,7 +40,7 @@ function DateCounter() {
         <div>
           <button onClick={countDec}>-</button>
           <input
-            type="text"
+            type="number"
             value={inputValue}
             onChange={(e) => setInputValue(Number(e.target.value))}
           />
